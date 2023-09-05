@@ -1,7 +1,7 @@
  # Tittle: project1-gitops
 # Tools: Git, GitHub, GitHub actions, GitOps, Terraform, Docker, Helm, Kubernetes (KOPS), AWS. 
 # Concepts: 
-# -Git and GitHub are used for centralized and distributed version control systems respectively. 
+# -Git and GitHub are used for distributed version control system and code hosting platform respectively. 
 # -GitHub actions is used for CI/CD pipeline 
 # -Terraform is used as a provisioning tool to automate tasks.
 # -Docker is used for containerization; to wrap up the applications and their dependecies. 
