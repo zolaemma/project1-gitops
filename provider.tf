@@ -8,6 +8,14 @@ terraform {
 }
 
 provider "aws" {
-    region = us-east-1 
+    region = var.region 
 
+}
+
+terraform {
+  backend "s3" {
+    bucket = "gitops-1"
+    key    = "gitops-1"
+    region = "us-east-1"
+  }
 }
